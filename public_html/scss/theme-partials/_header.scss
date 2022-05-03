@@ -1,0 +1,53 @@
+
+
+header{
+    img{
+        width: 196px;
+        height: 25px;
+        
+    }
+
+  .navbar-toggler{
+            span{
+                display: block;
+                width: 30px;
+                height: 3px;
+                margin-bottom: 5px;
+                background-color: $base-color;
+          
+                &:last-of-type{
+                    margin-bottom: 0;
+                }
+            }
+  }
+
+  .navbar-nav{
+      a{
+          font-size: 1.4rem;
+          line-height: 1.7rem;
+          font-family: $lato;
+          text-align: center;
+      }
+  }
+}
+
+
+@media(min-width:768px){
+    header{
+        .navbar-nav{
+            li{
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    header{
+        .navbar-nav{
+            li{
+                margin-left: 51px;
+            }
+        }
+    }
+}

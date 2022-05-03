@@ -1,0 +1,39 @@
+
+
+.lead-about{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 91px;
+
+    h1{
+        font-weight: $font-weight-lighter;
+        letter-spacing: 2rem;
+        line-height: 8.4rem;
+        
+    }
+    
+}
+
+@media(min-width:768px){
+    .lead-about{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px 0;
+        
+    }
+    
+}
+
+@media(min-width:992){
+    .lead-about{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1600px 0;
+        
+    }
+    
+}

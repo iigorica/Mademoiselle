@@ -1,0 +1,28 @@
+$socila-text: #ECD9D9;
+$footer-text:#1E1E1E;
+
+footer{
+    margin-top: 104px;
+
+    .social{
+        a{
+            color: $socila-text;
+            font-size:  3rem;
+            margin-bottom: 19px;
+            transition: 0.5s linear;
+            margin: 0 5px;
+
+            &:hover{
+                transform: rotate(180deg);
+                text-decoration: none;
+            }
+        }
+    }
+
+    .copyright{
+        a{
+            color: $footer-text;
+            
+        }
+    }
+}
