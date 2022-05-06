@@ -1,0 +1,30 @@
+
+
+.lead-contact{
+
+    padding: 104px 0 110px;
+
+    .contact-form{
+        .form-control{
+            background-color: rgba(#253D61, 0.02);
+            border: none;
+            height: 50px!important;
+            line-height: 50px;
+            padding: 0 10px;
+        }
+        .btn{
+           border-color: #253D61;
+        }
+    }
+}
+
+.contact-info{
+    background-color: $bg-service;
+   height: 255px;
+
+   article{
+       padding: 63px 0 60px;
+    }
+       
+   }
+ 

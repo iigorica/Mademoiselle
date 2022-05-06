@@ -1,0 +1,57 @@
+
+
+.lates-news{
+
+    h2{
+        margin-top: 75px 0 49px;
+    }
+   
+    .lates-news-item{
+        position: relative;
+        margin: 10px 0;
+
+        .lates-news-info{
+            position: absolute;
+            top: 120px;
+            left: 80px;
+            width: 313px;
+            background-color: rgba(white, 0.4);
+            
+        }
+    }
+}
+
+@media(min-width:768px){
+    .lates-news{
+        .lates-news-item{
+            .lates-news-info{
+                position: absolute;
+                top: 170px;
+                left: 170px;
+                width: 313px;
+                background-color: rgba(white, 0.4);
+                
+            }
+        }
+            
+        
+    }
+}
+
+@media(min-width:992px){
+    .lates-news{
+        .lates-news-item{
+            .lates-news-info{
+                position: absolute;
+                top: 170px;
+                left: 20px;
+                width: 313px;
+                background-color: #fff;
+                
+            }
+        }
+            
+        
+    }
+}
+
